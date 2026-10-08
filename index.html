@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>The Nickname Atlas of Southeast Asia</title>
+</head>
+<body>
+    <main class="container">
+
+        <header class="header">
+            <p class="eyebrow">Eleven Nations · One Archipelago of Names</p>
+
+            <h1>The <em>Nickname</em><br>Atlas of Europe</h1>
+
+            <p class="intro">
+                Every nation in this region carries a name earned through geography, history,
+                and myth. Type a country below to uncover the title it has been given.
+            </p>
+        </header>
+
+        <section id="div1" class="card">
+            <p class="label">Country Lookup</p>
+
+            <h2>Enter a Southeast Asian country</h2>
+
+            <input type="text" id="country" placeholder="Enter country...">
+
+            <button py-click="show_name">Reveal Nickname</button>
+
+            <div id="result"></div>
+        </section>
+
+        <footer class="footer">
+            <span class="footer-line"></span>
+            <p>Seatwork 1 · 2nd Quarter · 11 nations of Southeast Asia</p>
+        </footer>
+
+    </main>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>
